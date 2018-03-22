@@ -11,8 +11,12 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	<!-- My CSS -->
+	<link rel="stylesheet" href="./css/mycss.css">
+
+
 	<!-- Title -->
-	<title>David Williams</title>
+	<title>David</title>
 
 	<!-- Navigation bar -->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -28,10 +32,20 @@
 </head>
 
 <body>
-	<div>
-		<h1>Hello!</h1>
+	<div class="cover-container mx-auto flex-column text-center">
+		<!-- Image -->
+		<div class="row">
+			<div class="col text-center" id="home_img">
+				<img src="./images/home_main_img.jpg" class="img-fluid" alt="David posing with their partner during a dance">
+			</div>
+		</div>
 
-		<p>My name is David Williams, and I am currently a Master's student in the School of Information at the University of Michgan. I'm very interested UX Experience and Design, but am also learning more about Data Science and Analaysis. There's a lot more to me than that though, so look around to learn more!</p>
+		<!-- Intro text -->
+		<div class="row justify-content-md-center">
+			<h1 class="cover-heading">Hello!</h1>
+
+			<p class="lead">My name is David Williams, and I am currently a Master's student in the School of Information at the University of Michgan. I'm very interested UX Experience and Design, but am also learning more about Data Science and Analaysis. There's a lot more to me than that though, so look around to learn more!</p>
+		</div>
 	</div>
 
 	<!-- Optional JavaScript -->
@@ -42,7 +56,15 @@
 </body>
 
 <footer>
-	<p>dewil@umich.edu</p>
+
+	<!-- Contact info -->
+	<nav class="navbar fixed-bottom navbar-expand-md navbar-dark bg-dark">
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">dewil@umich.edu</li>
+			</ul>
+		</div>
+	</nav>
 </footer>
 
 </html>

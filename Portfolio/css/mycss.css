@@ -1,0 +1,11 @@
+html, body {
+	background-color: #333;
+}
+
+.lead, .cover-heading {
+	color: white;
+}
+
+.nav-item {
+	color: gray;
+}
