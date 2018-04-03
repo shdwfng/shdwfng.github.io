@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6, p {
 	color: white;
 }
 
+video {
+	height: 50%;
+	width: 100%;
+}
+
 .active-page {
 	text-decoration: underline;
 	border: solid;
@@ -20,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .card {
 	border: none;
-	background: none;
+	background: rgba(0, 0, 0, 0.5);
 	height: 100%;
 	text-align: left;
 }
@@ -47,7 +52,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .centered-over {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
