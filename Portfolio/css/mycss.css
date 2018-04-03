@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .lead, .cover-heading {
-	color: white;
+	color: rgb(132, 204, 244);
 }
 
 .nav-item {
@@ -29,8 +29,15 @@ h1, h2, h3, h4, h5, h6, p {
 	background: rgba(52, 58, 64, .75);
 }
 
-.centered {
+.centered-over {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
