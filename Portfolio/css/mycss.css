@@ -10,10 +10,26 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	color: white;
+	color: rgb(132, 204, 244);
 }
 
 .active-page {
+	text-decoration: underline;
+	border: solid;
+}
+
+.card {
+	border: none;
+	background: none;
+	height: 100%;
+	text-align: left;
+}
+
+.card h1 {
+	text-align: center;
+}
+
+.card h2 {
 	text-decoration: underline;
 }
 
