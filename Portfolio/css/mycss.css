@@ -11,6 +11,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p {
 	color: white;
+	font-family: Century Gothic, Helvetica, Times New Roman;
 }
 
 video {
@@ -18,28 +19,44 @@ video {
 	width: 100%;
 }
 
+.navbar {
+	color: white;
+}
+
 .active-page {
 	text-decoration: underline;
 	border: solid;
 }
 
-.card {
-	border: none;
+.container {
 	background: rgba(0, 0, 0, 0.5);
 	height: 100%;
+}
+
+.card {
+	border: none;
+	background: rgba(0, 0, 255, 0.1);
 	text-align: left;
+}
+
+.card-body {
+	border: solid;
+	border-color: white;
 }
 
 .card h1 {
 	text-align: center;
 }
 
-.card h2 {
-	text-decoration: underline;
+.card h1, h2, h3, h4, p {
+	font-family: Century Gothic, Helvetica, Times New Roman;
+}
+
+.card h4 {
+	font-style: italic;
 }
 
 .lead, .cover-heading {
-/*	color: rgb(132, 204, 244);*/
 	color: white;
 }
 
@@ -73,6 +90,11 @@ video {
 	margin: 0 0 0 0;
 }
 
+.card {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
 #home_img {
 	width: 100%;
 }
@@ -83,4 +105,21 @@ video {
 
 #intro_text > h1 {
 	margin-top: .5em;
+}
+
+#navigationbar ul li a {
+    color: white;
+}
+
+#navigationbar ul li a:hover {
+    text-decoration: underline;
+}
+
+footer nav div ul li p {
+	color: white;
+}
+
+body div h1 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
