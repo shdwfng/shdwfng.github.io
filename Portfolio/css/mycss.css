@@ -104,6 +104,11 @@ footer nav div ul li p {
 	width: 100%;
 }
 
+#intro_text {
+	padding: 0.5em;
+}
+
+/*Elements inside IDs*/
 #intro_text h1 {
 	margin-top: .5em;
 }
@@ -114,8 +119,4 @@ footer nav div ul li p {
 
 #navigationbar ul li a:hover {
     text-decoration: underline;
-}
-
-#intro_text {
-	padding: 0.5em;
 }
