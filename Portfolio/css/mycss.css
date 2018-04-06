@@ -1,3 +1,4 @@
+/*Document level*/
 html, body {
 	background-color: #333;
 	height: 100%;
@@ -18,6 +19,7 @@ video {
 	width: 100%;
 }
 
+/*Class level*/
 .navbar {
 	color: white;
 }
@@ -26,11 +28,6 @@ video {
 	text-decoration: underline;
 	border: solid;
 }
-
-/*.container {
-	background: rgba(0, 0, 0, 0.5);
-	height: 100%;
-}*/
 
 .card {
 	border: none;
@@ -44,18 +41,6 @@ video {
 .card-body {
 	border: solid;
 	border-color: white;
-}
-
-.card h1 {
-	text-align: center;
-}
-
-.card h1, h2, h3, h4, p {
-	font-family: Century Gothic, Helvetica, Times New Roman;
-}
-
-.card h4 {
-	font-style: italic;
 }
 
 .lead, .cover-heading {
@@ -96,6 +81,25 @@ video {
 	margin: 0 0 0 0;
 }
 
+/*Elements inside classes*/
+footer nav div ul li p {
+	color: white;
+}
+
+.card h1 {
+	text-align: center;
+}
+
+.card h1, h2, h3, h4, p {
+	font-family: Century Gothic, Helvetica, Times New Roman;
+}
+
+.card h4 {
+	font-style: italic;
+}
+
+
+/*ID level*/
 #home_img {
 	width: 100%;
 }
@@ -114,8 +118,4 @@ video {
 
 #intro_text {
 	padding: 0.5em;
-}
-
-footer nav div ul li p {
-	color: white;
 }
