@@ -1,4 +1,8 @@
+# Final Project: [Campus Info](https://campusinfo.umich.edu/)
+
 ## Designers
+
+### Things the site does well
  - Don't indicate important information using color alone [More Info](http://accessibility.voxmedia.com/#preview-output#designers-2)
  - Don't rely on sensory characteristics as the sole indicator for understanding and operating content [More Info](http://accessibility.voxmedia.com/#preview-output#designers-4)
  - Design focus states to help users navigate and understand where they are [More Info](http://accessibility.voxmedia.com/#preview-output#designers-5)
@@ -6,6 +10,10 @@
  - If an experience cannot be made accessible, create another route for users to get that information [More Info](http://accessibility.voxmedia.com/#preview-output#designers-8)
  - Be as consistent and clear as possible in layout and copy [More Info](http://accessibility.voxmedia.com/#preview-output#designers-9)
 
+### Things the site doesn't do
+ - Make sure there is enough contrast between text and its background color [More Info](http://accessibility.voxmedia.com/#preview-output#designers-1)
+ - Pair values of colors together (not only hues) to increase contrast [More Info](http://accessibility.voxmedia.com/#preview-output#designers-3)
+ - Write good alt text for your images [More Info](http://accessibility.voxmedia.com/#preview-output#designers-7)
 
 ## Suggestions
 1.	Choose text that contrasts better with the background it’s on. Right now there are several locations where the text doesn’t contrast well with its background, which will make it hard to read for people with certain color impairments.
