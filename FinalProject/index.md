@@ -1,3 +1,7 @@
+---
+title: Document Center
+---
+
 # Final Project: [Campus Info](https://campusinfo.umich.edu/)
 
 ## Designers
