@@ -14,3 +14,9 @@ body {
 	padding: 5%;
 }
 
+.grid-item img {
+	margin: 0 auto;
+	width: 50%;
+	display: block;
+}
+
