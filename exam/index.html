@@ -8,8 +8,20 @@
 	<!-- My CSS -->
 	<link rel="stylesheet" href="./css/mycss.css">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<!-- Title -->
 	<title>539 Final Exam!</title>
+
+	<script>
+      function hideImage() {
+      	$("#item1").css('display', 'none');
+      }
+
+      function showImage() {
+      	$("#item1").css('display', 'inline');
+      }
+    </script>
 
 </head>
 
@@ -20,13 +32,16 @@
 	</header>
 
 	<div class="grid-container">
-		<div class="grid-item col-6 item1">
+		<div class="grid-item col-6 item1" id="item1">
 			<img src="images/examPic.jpg">
 		</div>
-		<div class="grid-item col-6 item2">
+		<div class="grid-item col-6 item2" id="item2">
 			<img src="images/UMSI-logo.jpg">
 		</div>
 	</div>
+
+    <input type = "button" value = "Hide Image" onclick="hideImage();">
+    <input type = "button" value = "Show Image" onclick="showImage();">
 
 </body>
 
