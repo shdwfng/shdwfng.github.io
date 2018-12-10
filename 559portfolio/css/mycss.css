@@ -1,0 +1,122 @@
+/*Document level*/
+html, body {
+	background-color: #333;
+	height: 100%;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: white;
+	font-family: Century Gothic, Helvetica, Times New Roman;
+}
+
+video {
+	height: 50%;
+	width: 100%;
+}
+
+/*Class level*/
+.navbar {
+	color: white;
+}
+
+.active-page {
+	text-decoration: underline;
+	border: solid;
+}
+
+.card {
+	border: none;
+	background: rgba(0, 0, 255, 0.1);
+	text-align: left;
+	display: inline-block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.card-body {
+	border: solid;
+	border-color: white;
+}
+
+.lead, .cover-heading {
+	color: white;
+}
+
+.cover-container {
+	padding: 2em;
+}
+
+.nav-item {
+	color: gray;
+}
+
+.transparent {
+	background: rgba(52, 58, 64, .4);
+}
+
+.centered-over {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.no-padding {
+	padding: 0 0 0 0;
+}
+
+.no-margin {
+	margin: 0 0 0 0;
+}
+
+/*Elements inside classes*/
+footer nav div ul li p {
+	color: white;
+}
+
+.card h1 {
+	text-align: center;
+}
+
+.card h1, h2, h3, h4, p {
+	font-family: Century Gothic, Helvetica, Times New Roman;
+}
+
+.card h4 {
+	font-style: italic;
+}
+
+
+/*ID level*/
+#home_img {
+	width: 100%;
+}
+
+#intro_text {
+	padding: 0.5em;
+}
+
+/*Elements inside IDs*/
+#intro_text h1 {
+	margin-top: .5em;
+}
+
+#navigationbar ul li a {
+    color: white;
+}
+
+#navigationbar ul li a:hover {
+    text-decoration: underline;
+}
