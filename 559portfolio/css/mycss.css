@@ -9,7 +9,7 @@ footer {
 	width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li {
 	color: white;
 	font-family: Century Gothic, Helvetica, Times New Roman;
 }
